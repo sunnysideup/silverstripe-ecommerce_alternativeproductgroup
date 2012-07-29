@@ -6,9 +6,20 @@
  **/
 class ProductGroupAlternative extends ProductGroup {
 
-	static $icon = "ecommerce_alternativeproductgroup/images/treeicons/ProductGroupAlternative";
+	/**
+	 * Standard SS variable.
+	 */
+	public static $singular_name = "Product Category Page Alternative View";
+		function i18n_singular_name() { return _t("ProductGroup.PRODUCTGROUPALTERNATIVE", "Product Category Page Alternative View");}
 
-	static $add_action = 'alternative products overview';
+	/**
+	 * Standard SS variable.
+	 */
+	public static $plural_name = "Product Category Pages Alternative View";
+		function i18n_plural_name() { return _t("ProductGroup.PRODUCTGROUPSALTERNATIVE", "Product Category Pages Alternative View");}
+
+
+	static $icon = "ecommerce_alternativeproductgroup/images/treeicons/ProductGroupAlternative";
 
 
 }
