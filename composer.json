@@ -1,5 +1,5 @@
 {
-	"name": "silverstripe/ecommerce_alternativeproductgroup",
+	"name": "sunnysideup/ecommerce_alternativeproductgroup",
 	"type": "silverstripe-module",
 	"description": "adds an alternative view of products for Silverstripe e-commerce",
 	"homepage": "http://www.silverstripe-ecommerce.com",
