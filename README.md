@@ -1,7 +1,6 @@
-###############################################
+
 alternative product group
-Pre 0.1 proof of concept
-###############################################
+================================================================================
 
 Adds an alternative product group page to the
 e-commerce application.  For the customer this
